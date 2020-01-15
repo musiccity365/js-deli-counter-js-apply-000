@@ -8,6 +8,7 @@ function takeANumber(katzDeli, name) {
 
 function nowServing(katzDeli) {
   //create a function that will increment each customers position in line, to determine who is currently being served. Start at index 0.
+  let i = 0;
   while(i < katzDeli.length){
     i++;
   }//use a continuous loop to iterate through the katzDeli line.
