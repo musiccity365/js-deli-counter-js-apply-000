@@ -1,9 +1,13 @@
 var katzDeli = [];//create an empty array for the katzDeli line 
 
-function takeANumber(katzDeli, name) {
+/*function takeANumber(katzDeli, name) {
   //create a function to input new customers into the empty katzDeli array and assign them to the next number
   katzDeli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
+}*/
+
+function takeANumber(katzDeli, name) {
+  
 }
 
 function nowServing(katzDeli) {
