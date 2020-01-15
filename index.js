@@ -1,17 +1,17 @@
 var katzDeli = [];//create an empty array for the katzDeli line 
 
-/*function takeANumber(katzDeli, name) {
+function takeANumber(katzDeli, name) {
   //create a function to input new customers into the empty katzDeli array and assign them to the next number
   katzDeli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
-}*/
+}
 
-var ticketNumber = 0;
+/*var ticketNumber = 0;
 
 function takeANumber(katzDeli) {
   katzDeli.push(ticketNumber);
   ticketNumber++;
-}
+}*/
 
 function nowServing(katzDeli) {
   //create a function that will increment each customers position in line, to determine who is currently being served. Start at index 0.
