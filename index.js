@@ -6,8 +6,8 @@ var katzDeli = [];//create an empty array for the katzDeli line
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }*/
 
-function takeANumber(katzDeli, name) {
-  
+function takeANumber(katzDeli) {
+  katzDeli.push();
 }
 
 function nowServing(katzDeli) {
