@@ -6,8 +6,11 @@ var katzDeli = [];//create an empty array for the katzDeli line
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }*/
 
+var ticketNumber = 0;
+
 function takeANumber(katzDeli) {
-  katzDeli.push();
+  katzDeli.push(ticketNumber);
+  ticketNumber++;
 }
 
 function nowServing(katzDeli) {
